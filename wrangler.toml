@@ -15,13 +15,13 @@ compatibility_date = "2024-09-19"
 # - https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 # Note: Use secrets to store sensitive data.
 # - https://developers.cloudflare.com/workers/configuration/secrets/
-# [vars]
-# MY_VARIABLE = "production_value"
+[vars]
+SKRIVER_API_URL = "https://api.skriver.app"
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#workers-ai
-# [ai]
-# binding = "AI"
+[ai]
+binding = "AI"
 
 # Bind an Analytics Engine dataset. Use Analytics Engine to write analytics within your Pages Function.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#analytics-engine-datasets
