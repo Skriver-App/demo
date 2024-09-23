@@ -62,7 +62,7 @@ export class Transcripts extends OpenAPIRoute {
           {
             role: "system",
             content:
-              "You summarize conversations. You mention the participants, metadata and date.",
+              "Mention the metadata and provide actionable items from the conversation",
           },
           {
             role: "user",
